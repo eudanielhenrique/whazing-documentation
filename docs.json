@@ -1,101 +1,186 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "AbacatePay",
+  "name": "Whazing SaaS",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1E40AF"
   },
-  "favicon": "/favicon.ico",
-  "api": {
-    "mdx": {
-      "server": "https://api.abacatepay.com/v1",
-      "auth": {
-        "method": "bearer"
-      }
-    }
-  },
+  "favicon": "/logo/icon.png",
   "navigation": {
     "tabs": [
       {
         "tab": "Documentação",
         "groups": [
           {
-            "group": "Introdução",
+            "group": "Início",
             "pages": [
-              "pages/introduction",
-              "pages/devmode",
-              "pages/authentication",
-              "pages/webhooks",
-              "pages/production",
-              "pages/sdks",
-              "pages/trustMRR"
+              "pages/introduction"
             ]
           },
           {
-            "group": "Cliente",
-            "pages": ["pages/client/reference", "pages/client/create", "pages/client/list"]
-          },
-          {
-            "group": "Cobrança",
-            "pages": ["pages/payment/reference", "pages/payment/create", "pages/payment/list"]
-          },
-          {
-            "group": "Pix QRCode",
+            "group": "Instalação & VPS",
             "pages": [
-              "pages/pix-qrcode/reference",
-              "pages/pix-qrcode/create",
-              "pages/pix-qrcode/simulate-payment",
-              "pages/pix-qrcode/check"
+              "pages/infrastructure/installation",
+              "pages/infrastructure/database",
+              "pages/infrastructure/backup",
+              "pages/infrastructure/migration",
+              "pages/infrastructure/cloudflare-tunnel",
+              "pages/infrastructure/logs",
+              "pages/infrastructure/timezone",
+              "pages/infrastructure/auth-validity",
+              "pages/infrastructure/universal-password",
+              "pages/infrastructure/change-domain",
+              "pages/infrastructure/bullboard",
+              "pages/infrastructure/portainer",
+              "pages/infrastructure/proxy-whatsapp"
             ]
           },
           {
-            "group": "Cupom",
-            "pages": ["pages/coupon/reference", "pages/coupon/create", "pages/coupon/list"]
+            "group": "Funcionalidades",
+            "pages": [
+              {
+                "group": "Atendimento",
+                "pages": [
+                  "pages/features/attendance/evaluation",
+                  "pages/features/attendance/follow-up",
+                  "pages/features/attendance/improve-text",
+                  "pages/features/attendance/farewell",
+                  "pages/features/attendance/closing-reasons"
+                ]
+              },
+              {
+                "group": "Automação",
+                "pages": [
+                  "pages/features/automation/chatbot",
+                  "pages/features/automation/campaigns",
+                  "pages/features/automation/keyword-flows"
+                ]
+              },
+              {
+                "group": "WhatsApp",
+                "pages": [
+                  "pages/features/whatsapp/sync-messages",
+                  "pages/features/whatsapp/group-access",
+                  "pages/features/whatsapp/pwa",
+                  "pages/features/whatsapp/woocommerce-login"
+                ]
+              },
+              {
+                "group": "Gestão",
+                "pages": [
+                  "pages/features/management/users",
+                  "pages/features/management/user-profile",
+                  "pages/features/management/contacts",
+                  "pages/features/management/import-contacts",
+                  "pages/features/management/settings",
+                  "pages/features/management/system-variables"
+                ]
+              }
+            ]
           },
           {
-            "group": "Saque",
-            "pages": ["pages/withdraw/reference", "pages/withdraw/create", "pages/withdraw/get", "pages/withdraw/list"]
+            "group": "Integrações",
+            "pages": [
+              {
+                "group": "Inteligência Artificial",
+                "pages": [
+                  "pages/integrations/ai/chatgpt-assistants",
+                  "pages/integrations/ai/groq",
+                  "pages/integrations/ai/typebot",
+                  "pages/integrations/ai/transcription"
+                ]
+              },
+              {
+                "group": "CRM & ERP",
+                "pages": [
+                  "pages/integrations/crm/hubsoft",
+                  "pages/integrations/crm/ixc",
+                  "pages/integrations/crm/perfex",
+                  "pages/integrations/crm/tsmx-sgp",
+                  "pages/integrations/crm/smart-reception"
+                ]
+              },
+              {
+                "group": "Telefonia",
+                "pages": [
+                  "pages/integrations/voice/wavoip",
+                  "pages/integrations/voice/sip-dialer"
+                ]
+              },
+              {
+                "group": "Webhooks",
+                "pages": [
+                  "pages/integrations/webhooks/n8n",
+                  "pages/integrations/webhooks/channel-webhook",
+                  "pages/integrations/webhooks/integration-webhook"
+                ]
+              },
+              {
+                "group": "Pagamentos",
+                "pages": [
+                  "pages/integrations/payments/index",
+                  "pages/integrations/payments/pushin-pay",
+                  "pages/integrations/payments/mercado-pago",
+                  "pages/integrations/payments/asaas",
+                  "pages/integrations/payments/efi-bank",
+                  "pages/integrations/payments/infinitepay",
+                  "pages/integrations/payments/asaas-boleto"
+                ]
+              }
+            ]
           },
           {
-            "group": "Loja",
-            "pages": ["pages/store/reference", "pages/store/get"]
-          },
-          {
-            "group": "Trust MRR",
-            "pages": ["pages/trustMRR/reference", "pages/trustMRR/mrr", "pages/trustMRR/get", "pages/trustMRR/list"]
+            "group": "Solução de Problemas",
+            "pages": [
+              "pages/troubleshooting/common-issues",
+              "pages/troubleshooting/system-wont-open",
+              "pages/troubleshooting/ssl-issues",
+              "pages/troubleshooting/license-error",
+              "pages/troubleshooting/reinstall-redis"
+            ]
           }
         ]
       },
       {
-        "tab": "Referência da API",
-        "openapi": "openapi.yaml"
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Comece Aqui",
+            "pages": [
+              "pages/api-docs/introduction"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "pages/api-docs/endpoints/messages",
+              "pages/api-docs/endpoints/contacts",
+              "pages/api-docs/endpoints/tickets",
+              "pages/api-docs/endpoints/templates",
+              "pages/api-docs/endpoints/others"
+            ]
+          }
+        ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/whazing.png",
+    "dark": "/logo/whazing.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Repositorio",
-        "href": "https://github.com/AbacatePay/documentation"
+        "label": "GitHub",
+        "href": "https://github.com/cleitonme/Whazing-SaaS"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://www.abacatepay.com/app"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/abacatepay",
-      "github": "https://github.com/AbacatePay",
-      "linkedin": "https://br.linkedin.com/company/abacatepay?trk=public_post_feed-actor-name"
+      "github": "https://github.com/cleitonme/Whazing-SaaS"
     }
   }
 }

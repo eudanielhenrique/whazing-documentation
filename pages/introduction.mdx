@@ -1,71 +1,82 @@
 ---
-title: Comece aqui
-icon: 'Avocado'
-description: "Pegue seu café e aprenda sobre a AbacatePay!"
+title: "Comece aqui"
+sidebarTitle: "Comece aqui"
+icon: "house"
+description: "Um sistema para gestão de atendimento multicanais centralizado."
 ---
-Nesta documentação você encontrará tudo o que precisa para integrar com a API da AbacatePay. Desenvolvida por desenvolvedores para desenvolvedores, nossa plataforma foi projetada para ser intuitiva e fácil de usar.
 
-## <Icon icon="Avocado" type="solid"/>  O que é a AbacatePay?
+## Bem-vindo ao Whazing SaaS
 
-A AbacatePay é um gateway de pagamento que surgiu da nossa própria necessidade de simplificar cobranças em nossos produtos. Percebemos que os meios de pagamento existentes eram excessivamente complexos:
-- Documentações extensas e confusas
-- Processos de homologação longos e burocráticos
-- Múltiplas formas de realizar a mesma operação
-- Alguns gateways até exigem cursos para integração!
+O Whazing é a solução completa para gerenciar múltiplos canais de atendimento em um só lugar.
 
-Nossa solução? Uma plataforma que transforma a complexidade das Fintechs em uma API simples e intuitiva. Veja como é fácil:
+<CardGroup cols={2}>
+  <Card title="Grupo do WhatsApp" icon="whatsapp" href="https://grupo.whazing.com.br">
+    Entre na nossa comunidade para suporte e novidades.
+  </Card>
+  <Card title="Documentação Oficial" icon="book" href="/pages/infrastructure/installation">
+    Aprenda como instalar e configurar o sistema.
+  </Card>
+</CardGroup>
 
-```javascript
-// Exemplo de criação de cobrança
-const payment = await abacatePay.payments.create({
-  amount: 1000,
-  description: "Serviço prestado"
-});
-```
+## 🚀 Demo do Produto
 
-## <Icon icon="laptop" type="solid"/>  API descomplicada
+Teste agora mesmo nossa plataforma em funcionamento:
 
-Nossa API foi construída com três princípios fundamentais:
+<Card title="Acessar Demo Online" icon="rocket" href="https://teste.whazing.com.br/">
+  **URL:** https://teste.whazing.com.br/
+  
+  **Usuário:** `admin@admin.com`
+  
+  **Senha:** `123456`
+</Card>
 
-1. **Baseada em intenção**: Cada endpoint representa exatamente o que você lê
-   ```
-   POST /billing/create    // Cria um pagamento
-   GET /billing/get       // Busca um pagamento específico
-   ```
+---
 
-2. **Idempotente**: Execute a mesma requisição quantas vezes precisar, sem efeitos colaterais
-   ```javascript
-   // Seguro para executar múltiplas vezes
-   await abacatePay.billing.create({...});
-   ```
+## 📦 Instalação Rápida
 
-3. **Consistente**: Nossa API retorna sempre um option contendo o erro ou os dados de retorno, o que facilita a implementação em linguagens de tipagem forte e consistência em todas as operações.
-   ```json
-   {
-     "data": {
-         "id": "bill_12345667",
-         "url": "https://abacatepay.com/pay/bill_12345667",
-         "amount": 1000,
-         "status": "PENDING",
-         "devMode": true,
-         "methods": ["PIX", "CARD"],
-         "frequency": "ONE_TIME",
-         "nextBilling": null,
-         "customer": {
-            "id": "cust_12345",
-            "metadata": {
-               "email": "customer@example.com"
-            }
-         },
-         "createdAt": "2024-11-04T18:38:28.573",
-         "updatedAt": "2024-11-04T18:38:28.573",
-      },
-      "error": null
-   }
-   ```
+Para instalar o sistema, siga nosso guia oficial de instalação Docker.
 
-Para facilitar ainda mais, oferecemos SDKs oficiais e suporte a modo de desenvolvimento com chaves de API dedicadas.
+<Steps>
+  <Step title="Requisitos">
+    Você precisará de uma VPS com Docker instalado. Recomendamos VPS com bom custo-benefício abaixo.
+  </Step>
+  <Step title="Tutorial">
+    Siga o passo a passo em [Instalação Manual Docker](/pages/infrastructure/installation).
+  </Step>
+</Steps>
 
-## <Icon icon="cloud" type="solid"/>  Dúvidas? 
+### Recomendação de VPS
+Utilize nosso cupom para desconto em VPS de alta performance.
 
-Nossa equipe está sempre pronta para ajudar! Entre em contato pelo email <Icon icon="envelope" type="solid"/> ajuda@abacatepay.com
+<Card title="Hetzner Cloud / Digital Ocean" icon="server" href="#">
+  Cupom 25% OFF: **WHAZING**
+</Card>
+
+---
+
+## 💎 Versão Premium
+
+Adquira a versão Premium para remover anúncios e ter suporte especializado.
+
+<CardGroup cols={1}>
+  <Card title="Fale com Comercial" icon="phone" href="https://wa.me/554831970877">
+    WhatsApp: **+55 48 3197-0877** ou **+55 48 3197-0599**
+  </Card>
+</CardGroup>
+
+<Check>Cupom Wavoip: **WHAZING**</Check>
+
+---
+
+## 📚 Recursos Adicionais
+
+* [Termos de Uso](#)
+* [Contrato de Licença](#)
+* [Resumo de Recursos](#)
+
+### Vídeos e Tutoriais
+Confira vídeos gravados por parceiros e clientes da plataforma para aprender na prática.
+
+<Card title="Canal de Vídeos" icon="youtube" href="#">
+  Acessar playlist de tutoriais
+</Card>
