@@ -38,6 +38,28 @@
             ]
           },
           {
+            "group": "📡 Canais Disponíveis",
+            "pages": [
+              "pages/channels/index",
+              {
+                "group": "API Oficial",
+                "pages": [
+                  "pages/channels/api-oficial",
+                  "pages/channels/api-oficial-hub",
+                  "pages/channels/api-oficial-templates",
+                  "pages/channels/api-oficial-fallback",
+                  "pages/channels/api-oficial-grupos"
+                ]
+              },
+              "pages/channels/wuzapi",
+              "pages/channels/api-plus",
+              "pages/channels/connectionhub",
+              "pages/channels/notificame",
+              "pages/channels/telegram",
+              "pages/channels/migration"
+            ]
+          },
+          {
             "group": "Funcionalidades",
             "pages": [
               {
