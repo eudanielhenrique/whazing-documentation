@@ -111,6 +111,7 @@
                   "pages/integrations/ai/chatgpt-assistants",
                   "pages/integrations/ai/groq",
                   "pages/integrations/ai/typebot",
+                  "pages/integrations/ai/typebot-installation",
                   "pages/integrations/ai/transcription"
                 ]
               },
