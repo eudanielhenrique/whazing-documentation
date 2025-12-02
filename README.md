@@ -1,88 +1,94 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo/dark.svg"></source>
-    <source media="(prefers-color-scheme: light)" srcset="logo/light.svg"></source>
-    <img alt="AbacatePay Logo" src="logo/light.svg" width="300"></img>
-  </picture>
-</p>
+# Whazing SaaS - Documentação
 
-# AbacatePay Documentation
+Documentação oficial do **Whazing SaaS**, um sistema completo para gestão de atendimento multicanais centralizado.
 
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+## 🚀 Sobre o Whazing
 
+O Whazing é a solução completa para gerenciar múltiplos canais de atendimento em um só lugar, incluindo:
 
-AbacatePay is a developer-friendly payment gateway designed to simplify payment processing. Built by developers for developers, it offers:
+- 📱 **WhatsApp** (Baileys)
+- 📸 **Instagram**
+- 👥 **Facebook**
+- 💬 **Chat Interno**
+- 🏢 **Sistema SaaS**
+- 📋 **Kanban**
+- E muito mais!
 
-- Simple, intention-based API endpoints
-- Idempotent operations for reliable transactions
-- Consistent JSON request/response formats
-- Native SDK support
-- Easy dev mode integration
-- PIX payment support
-- Streamlined client and billing management
+## 📚 Estrutura da Documentação
 
-The documentation covers everything from getting started guides to detailed API references, helping you integrate payments into your application quickly and efficiently.
+Esta documentação é construída com [Mintlify](https://mintlify.com) e inclui:
 
-## 🚀 Quick Start
+- **Instalação & VPS**: Guias completos de instalação Docker, configuração de banco de dados, backup, migração e muito mais
+- **Funcionalidades**: Atendimento, automação, WhatsApp, gestão de usuários e contatos
+- **Integrações**: IA (ChatGPT, Groq), CRM/ERP (HubSoft, IXC, Perfex, TSMX), Telefonia, Webhooks
+- **Gateways de Pagamento**: Pushin Pay, Mercado Pago, Asaas, EFI Bank, InfinitePay
+- **API Reference**: Documentação completa da API REST
+- **Solução de Problemas**: Troubleshooting e resolução de problemas comuns
 
-This documentation is built with [Mintlify](https://mintlify.com)
+## 🛠️ Desenvolvimento Local
 
-1. **Preview locally**
-```bash
-# Install Mintlify CLI
-npm i -g mintlify
+### Pré-requisitos
 
-# Start development server
-mintlify dev
-```
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-2. **Visit `http://localhost:3000` to see your documentation**
+### Instalação
 
-## 📚 Documentation Structure
+1. **Instalar Mintlify CLI globalmente:**
+   ```bash
+   npm i -g mintlify
+   ```
+
+2. **Iniciar servidor de desenvolvimento:**
+   ```bash
+   mintlify dev
+   ```
+
+3. **Acessar a documentação:**
+   Abra seu navegador em `http://localhost:3000`
+
+## 📁 Estrutura do Projeto
 
 ```
 .
-├── api-reference/  # Contains API documentation and endpoints reference
-├── images/         # Store all documentation images and screenshots
-├── logo/           # Brand logos for light and dark themes
-├── pages/          # Main documentation content
-├── docs.json          # Mintlify configuration file for documentation settings
-├── favicon.ico        # Website favicon
-├── openapi.yaml       # OpenAPI/Swagger specification file
-└── README.md          # Project overview and setup instructions
+├── pages/              # Conteúdo da documentação (arquivos MDX)
+│   ├── infrastructure/ # Instalação, VPS, banco de dados
+│   ├── features/       # Funcionalidades do sistema
+│   ├── integrations/   # Integrações disponíveis
+│   ├── api-docs/       # Documentação da API
+│   └── troubleshooting/# Solução de problemas
+├── images/             # Imagens e screenshots
+├── logo/               # Logos e ícones
+├── docs.json           # Configuração do Mintlify
+└── README.md           # Este arquivo
 ```
 
-## 🔧 Local Development
+## 🔗 Links Úteis
 
-1. **Install dependencies**
-```bash
-mintlify install
-```
+- **Demo do Produto**: https://teste.whazing.com.br/
+  - Usuário: `admin@admin.com`
+  - Senha: `123456`
+- **Grupo do WhatsApp**: https://grupo.whazing.com.br
+- **Repositório Principal**: https://github.com/cleitonme/Whazing-SaaS
 
-2. **Start development server**
-```bash
-mintlify dev
-```
+## 📝 Contribuindo
 
-### OR
+Contribuições são bem-vindas! Para contribuir:
 
-1. Run using docker
-```bash
-make start
-```
+1. Faça um fork deste repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-### Troubleshooting
+## 📄 Licença
 
-- If Mintlify dev isn't running, try `mintlify install` to reinstall dependencies
-- For 404 errors, ensure you're in a directory with `mint.json`
+Este projeto está sob a licença especificada no arquivo [LICENSE](LICENSE).
 
-## 🚀 Deployment
+## 👥 Agradecimentos
 
-Changes are automatically deployed when merged to the `main` branch, through the Mintlify GitHub integration.
+Agradecimentos especiais a todos os colaboradores e parceiros que contribuíram para esta documentação.
 
-See [Mintlify GitHub App Documentation](https://mintlify.com/docs/settings/github) for more information.
+---
 
-## 💪 Support
-
-- Join our [Discord community](https://discord.gg/CP57mm7EFk)
-- Report issues on [GitHub](https://github.com/abacatepay/documentation/issues)
+**Desenvolvido com ❤️ para a comunidade Whazing**
