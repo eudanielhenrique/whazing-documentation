@@ -94,9 +94,9 @@ Recomenda-se sempre consultar a **documentação oficial da API**, pois o pacote
 
 [Assista ao vídeo tutorial](https://youtu.be/To1x6wZAI1s)
 
-<img src="/images/image (1).png" alt="Exemplo de fluxo N8N integrado ao Whazing" />
+<img src="../../../images/image (1).png" alt="Exemplo de fluxo N8N integrado ao Whazing" />
 
-<img src="/images/image (1).png" alt="Configuração de WebHook no Whazing" />
+<img src="../../../images/image (1).png" alt="Configuração de WebHook no Whazing" />
 
 ---
 

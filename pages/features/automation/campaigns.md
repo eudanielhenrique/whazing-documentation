@@ -12,7 +12,7 @@ Lembre-se campanha tem riscos altos de ban aconselhamos uso de números descart�
 
 ### 🚀 Etapa 1: Configuração da Campanha
 
-<figure><img src="/images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
+<figure><img src="../../../images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
 
 * **Nome da Campanha** → Identifique sua campanha. _(Apenas para organização interna, não interfere no envio)._
 * **Data e Hora de Início** → Defina quando a campanha será iniciada.
@@ -27,9 +27,9 @@ Depois de preencher todos os campos, clique em **Salvar** e siga para a próxima
 
 ### 👥 Etapa 2: Adicionando Contatos
 
-<figure><img src="/images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
+<figure><img src="../../../images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
 
-<figure><img src="/images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
+<figure><img src="../../../images/campanha-campanha1-1.png" alt="campanha-campanha1-1" /><figcaption></figcaption></figure>
 
 #### Incluir Contatos
 
@@ -59,7 +59,7 @@ Você pode **personalizar suas mensagens** utilizando informações cadastradas 
 
 📷 _Exemplo de Informações Adicionais:_
 
-<img src="/images/campanha-campanha1-1.png" alt="campanha-campanha1-1" />\\
+<img src="../../../images/campanha-campanha1-1.png" alt="campanha-campanha1-1" />\\
 
 *   Exemplo 1:
 

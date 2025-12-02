@@ -20,7 +20,7 @@ icon: "shield-halved"
    * Se a instalação for bem-sucedida, o túnel aparecerá na seção "Connectors".
    * Clique em "Próxima" para continuar.
 
-<img src="/images/protegendocomtunelcloudflare-backend.png" alt="print" />
+<img src="../../images/protegendocomtunelcloudflare-backend.png" alt="print" />
 
 4. **Configuração do Backend**:
    * Nesta tela, configure o domínio do seu backend:
@@ -30,7 +30,7 @@ icon: "shield-halved"
    * Na lista de túneis, clique nos três pontos ao lado do túnel e selecione "Configurar".
    * Adicione o nome do host público.
 
-<img src="/images/protegendocomtunelcloudflare-frontend.png" alt="print" />
+<img src="../../images/protegendocomtunelcloudflare-frontend.png" alt="print" />
 
 5. **Configuração do Frontend**:
    * Nesta tela, configure o domínio do seu frontend:

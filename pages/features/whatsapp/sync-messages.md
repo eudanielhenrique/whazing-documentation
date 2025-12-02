@@ -9,7 +9,7 @@ icon: "arrows-rotate"
 * Cadastrar contato - caso não tenha
 * Abrir novo ticket - caso não tenha algum aberto
 
-<img src="/images/sincronizarmensagensapiplus-sinc.png" alt="print" />
+<img src="../../../images/sincronizarmensagensapiplus-sinc.png" alt="print" />
 
 * Aparece pedindo quantidade de mensagens máximo 100, caso encontrar as mensagens elas começaram ser baixadas
 

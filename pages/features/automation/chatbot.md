@@ -16,7 +16,7 @@ O sistema utiliza **quatro critérios de prioridade** para definir **qual bot se
 
 Todos os contatos vinculados a uma _lane_ específica do CRM seguirão o bot configurado para ela. Ao enviar uma mensagem para o número do sistema, se **não houver tickets abertos ou pendentes**, o bot dessa _lane_ será acionado.
 
-<img src="/images/chatbotinterno-crm.png" alt="print" />
+<img src="../../../images/chatbotinterno-crm.png" alt="print" />
 
 ***
 
@@ -32,7 +32,7 @@ Permite definir palavras que acionam um bot específico. Exemplo: se você cadas
 
 Cada canal pode ter um bot próprio. Quando o cliente envia uma mensagem para o número do sistema, caso **não existam tickets abertos ou pendentes**, o bot configurado nesse canal será utilizado.
 
-<img src="/images/chatbotinterno-canais.png" alt="print" />
+<img src="../../../images/chatbotinterno-canais.png" alt="print" />
 
 ***
 
@@ -59,11 +59,11 @@ Essas prioridades determinam **qual bot será acionado** sempre que uma nova men
 
 A configuração do fluxo do chatbot é feita pela interface visual:
 
-<img src="/images/chatbotinterno-montagembot.png" alt="print" />
+<img src="../../../images/chatbotinterno-montagembot.png" alt="print" />
 
 ### 🔧 Elementos Básicos de Configuração
 
-<img src="/images/chatbotinterno-configfluxo.png" alt="print" />
+<img src="../../../images/chatbotinterno-configfluxo.png" alt="print" />
 
 A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 
@@ -117,20 +117,20 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Compatível com **API oficial** e **API Plus**.
 * Funciona parcialmente no **Baileys** (sem suporte oficial, pode parar a qualquer momento).
 
-<img src="/images/chatbotinterno-barbearia.jpg" alt="print" /> <img src="/images/chatbotinterno-barbearia.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" /> <img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" />
 
 ### 🔘 Enviar Botões
 
 * Compatível com **WhatsApp oficial**, **Facebook**, **Instagram** e **API Plus**.
 * Máximo de **3 botões**.
 
-<img src="/images/chatbotinterno-barbearia.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" />
 
 ### 🔗 Botão com Link
 
 * Compatível com **API oficial** e **API Plus**.
 
-<img src="/images/chatbotinterno-barbearia.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" />
 
 ### 📍 Solicitar Localização
 
@@ -138,7 +138,7 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Útil para serviços de **entrega**.
 * Compatível com **API oficial** e **API Plus**.
 
-<img src="/images/chatbotinterno-barbearia.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" />
 
 ### 🧩 Botão Dinâmico
 
@@ -146,7 +146,7 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Permite misturar tipos de botões: resposta, link, cópia, ligação, etc.
 * Alguns dispositivos pode aparecer mensagem não compativel
 
-<img src="/images/chatbotinterno-dinamico.png" alt="print" />
+<img src="../../../images/chatbotinterno-dinamico.png" alt="print" />
 
 ### 🎠 Carrossel de Mídia
 
@@ -154,13 +154,13 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 * Envie várias imagens com botões interativos abaixo delas.
 * Alguns dispositivos pode aparecer mensagem não compativel
 
-<img src="/images/chatbotinterno-carrossel1.png" alt="print" /> <img src="/images/chatbotinterno-carrossel2.png" alt="print" />
+<img src="../../../images/chatbotinterno-carrossel1.png" alt="print" /> <img src="../../../images/chatbotinterno-carrossel2.png" alt="print" />
 
 ***
 
 ## 🔄 Ordem das Interações
 
-<img src="/images/chatbotinterno-configfluxo2.png" alt="print" />
+<img src="../../../images/chatbotinterno-configfluxo2.png" alt="print" />
 
 > ⚠️ **Importante:**
 >
@@ -171,7 +171,7 @@ A partir da versão **2.11.0**, estão disponíveis as seguintes interações:
 
 ## 🧩 Configuração de Condições
 
-<img src="/images/chatbotinterno-condicoes.png" alt="print" />
+<img src="../../../images/chatbotinterno-condicoes.png" alt="print" />
 
 ### Tipos de Condições (em ordem de prioridade)
 
@@ -241,7 +241,7 @@ _(Essa mensagem pode ser personalizada nas configurações.)_
 
 Ideal para empresas com **plantão ou suporte emergencial**.
 
-<img src="/images/chatbotinterno-horario1.jpg" alt="print" /> <img src="/images/chatbotinterno-horario2.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-horario1.jpg" alt="print" /> <img src="../../../images/chatbotinterno-horario2.jpg" alt="print" />
 
 [Baixar exemplo](horario_de_atendimento.json)
 
@@ -273,11 +273,11 @@ Por favor, confirme se seu endereço é Rua Marechal Deodoro, 11?
 
 Integração com [https://cal.com/](https://cal.com/)
 
-<img src="/images/chatbotinterno-barbearia.jpg" alt="print" />
+<img src="../../../images/chatbotinterno-barbearia.jpg" alt="print" />
 
 [Baixar exemplo](agendamentobarbearia.json)
 
-<img src="/images/chatbotinterno-barbeariabotao.jpeg" alt="print" />
+<img src="../../../images/chatbotinterno-barbeariabotao.jpeg" alt="print" />
 
 [Baixar exemplo com botões](agendamentobarbeariabotao.json)
 

@@ -17,7 +17,7 @@ na url da integração preencha somente [https://ixc.whazing.com.br](https://www
 1. Acesse **Integrações** > clique em **Adicionar** e preencha os dados conforme mostrado na imagem abaixo:
 2.
 
-<img src="/images/image (14).png" alt="Configuração de Integração" />
+<img src="../../../images/image (14).png" alt="Configuração de Integração" />
 3. cadastrar dados para acesso Api IXC e liberar ip da vps abaixo segue prints tela configuração no ixc
 
 ## Passo 2: Configurar Filas
@@ -25,14 +25,14 @@ na url da integração preencha somente [https://ixc.whazing.com.br](https://www
 1. Acesse **Cadastros** > **Filas** > clique em **Adicionar** e preencha os dados conforme mostrado na imagem abaixo:
 2.
 
-<img src="/images/image (15).png" alt="Configuração de Filas" />
+<img src="../../../images/image (15).png" alt="Configuração de Filas" />
 
 3. Na integração, selecione a opção criada no passo anterior.
 
 ## Passo 3: Criar o Chatbot
 
 1. Crie um chatbot. Verifique a documentação para exemplos de como criar um chatbot.
-2. <img src="/images/2viaboletoasaas-tela3.png" alt="print" />
+2. <img src="../../../images/2viaboletoasaas-tela3.png" alt="print" />
 
 ## Passo 4: Configurar Condições
 
@@ -40,14 +40,14 @@ na url da integração preencha somente [https://ixc.whazing.com.br](https://www
 
 Telas do IXC
 
-<img src="/images/image (17).png" alt="Tela 1 do IXC" />
+<img src="../../../images/image (17).png" alt="Tela 1 do IXC" />
 
-<img src="/images/image (16).png" alt="Tela 2 do IXC" />
+<img src="../../../images/image (16).png" alt="Tela 2 do IXC" />
 
-<img src="/images/image (18).png" alt="Tela 3 do IXC" />
+<img src="../../../images/image (18).png" alt="Tela 3 do IXC" />
 
-<img src="/images/image (19).png" alt="Tela 4 do IXC" />
+<img src="../../../images/image (19).png" alt="Tela 4 do IXC" />
 
-<img src="/images/image (20).png" alt="Tela 5 do IXC" />
+<img src="../../../images/image (20).png" alt="Tela 5 do IXC" />
 
 Obrigado André Alves Magalhães pelo apoio

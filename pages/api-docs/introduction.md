@@ -12,7 +12,7 @@ icon: "code"
 
 
 
-<img src="/images/integracoes-canal.png" alt="print" />
+<img src="../../images/integracoes-canal.png" alt="print" />
 
 * Faça o [download do arquivo modelo](../api/apiizing.json)
 

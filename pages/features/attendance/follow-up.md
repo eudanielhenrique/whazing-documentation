@@ -47,7 +47,7 @@ Esse processo é essencial para aumentar suas chances de conversão e manter o c
 
 Acesse o menu **Configurações → Follow-up**.
 
-<img src="/images/follow-up-novofollowup.png" alt="print" />
+<img src="../../../images/follow-up-novofollowup.png" alt="print" />
 
 #### Campos disponíveis:
 
@@ -66,7 +66,7 @@ Acesse o menu **Configurações → Follow-up**.
 
 Acesse a tela de mensagens e adicione quantas forem necessárias:
 
-<img src="/images/follow-up-novamensagem.png" alt="print" />
+<img src="../../../images/follow-up-novamensagem.png" alt="print" />
 
 * **Mensagem:** Texto que será enviado ao cliente
 * **Offset:** Tempo de espera (em minutos) antes do envio
@@ -106,7 +106,7 @@ O offset será somado ao **horário real em que a mensagem anterior foi enviada*
 
 Na tela de organização você pode:
 
-<img src="/images/follow-up-exemplo.png" alt="print" />
+<img src="../../../images/follow-up-exemplo.png" alt="print" />
 
 * **Reordenar mensagens** (arrastando a ordem)
 * **Alterar o texto** das mensagens
@@ -159,7 +159,7 @@ Para retirar contato do follow-up use valor 0
 
 **Pela tela atendimento com nova opção**
 
-<img src="/images/follow-up-telaatendimento.png" alt="print" />
+<img src="../../../images/follow-up-telaatendimento.png" alt="print" />
 
 #### Para acompanhar os envios acesse nos relatórios
 

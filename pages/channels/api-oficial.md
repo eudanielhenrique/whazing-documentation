@@ -68,13 +68,13 @@ Este guia explica como integrar a API Oficial do WhatsApp (WABA) ao sistema Whaz
 
 ### 6️⃣ Adicionar Canal no Whazing
 
-<img src="/images/whazing (5).png" alt="Adicionar Canal no Whazing" />
+<img src="../../images/whazing (5).png" alt="Adicionar Canal no Whazing" />
 
 1. No Whazing, vá em **Adicionar Canal**.
 2. Selecione a opção **WABA API Oficial**.
 3. Cole o **Token de Acesso** gerado anteriormente.
 
-<img src="/images/configuracaoapi.png" alt="Configuração da API" />
+<img src="../../images/configuracaoapi.png" alt="Configuração da API" />
 
 📌 Também será necessário copiar do painel da Meta:
 
@@ -82,7 +82,7 @@ Este guia explica como integrar a API Oficial do WhatsApp (WABA) ao sistema Whaz
 * **ID da Conta do WhatsApp Business**
 * **Versão da API** (ex: `v22.0` ou a mais recente disponível).
 
-<img src="/images/whazing2.png" alt="IDs necessários" />
+<img src="../../images/whazing2.png" alt="IDs necessários" />
 
 ---
 
@@ -96,7 +96,7 @@ Este guia explica como integrar a API Oficial do WhatsApp (WABA) ao sistema Whaz
 4. Clique em **Verificar e Salvar**.
 5. Role a página até encontrar a opção **messages** e altere para **Assinado**.
 
-<img src="/images/ativarmessages.png" alt="Ativar mensagens" />
+<img src="../../images/ativarmessages.png" alt="Ativar mensagens" />
 
 ---
 
@@ -105,7 +105,7 @@ Este guia explica como integrar a API Oficial do WhatsApp (WABA) ao sistema Whaz
 1. Acesse **Ferramentas > Registrar Telefone**.
 2. Digite um **PIN de 6 dígitos** (caso já tenha usado um PIN antes, utilize o mesmo).
 
-<img src="/images/registrartelefone.png" alt="Registrar Telefone" />
+<img src="../../images/registrartelefone.png" alt="Registrar Telefone" />
 
 ---
 
@@ -135,7 +135,7 @@ Para garantir o funcionamento contínuo, gere um **Token Permanente**.
 2. Imagens PNG com fundo transparente podem apresentar **alterações**, pois o WhatsApp converte para JPEG.
 3. Mensagens fora do modelo só são entregues **dentro da janela de 24 horas** desde a última mensagem do cliente.
 
-<img src="/images/limites.png" alt="Limites da API Oficial" />
+<img src="../../images/limites.png" alt="Limites da API Oficial" />
 
 ---
 
@@ -145,7 +145,7 @@ Para garantir o funcionamento contínuo, gere um **Token Permanente**.
   * A mensagem é enviada **fora da janela de 24 horas**, ou
   * O conteúdo está em **formato não aceito pela Meta**.
 
-<img src="/images/mensagemrejeitada.png" alt="Mensagem rejeitada" />
+<img src="../../images/mensagemrejeitada.png" alt="Mensagem rejeitada" />
 
 ---
 

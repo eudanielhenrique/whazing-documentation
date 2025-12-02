@@ -12,7 +12,7 @@ Cadastrar através da URL [https://hub.whazing.com.br/](https://hub.whazing.com.
 
 Usar cupom desconto: **whazing**
 
-<img src="/images/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Hub NotificaMe" />
+<img src="../../images/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Hub NotificaMe" />
 
 ---
 
@@ -23,19 +23,19 @@ Usar cupom desconto: **whazing**
 
 * **Apenas Instagram**: selecione **"Instagram V2 | Oficial"**.
 
-<img src="/images/instagram.png" alt="Instagram" />
+<img src="../../images/instagram.png" alt="Instagram" />
 
 * **Apenas Facebook**: selecione **"Facebook | Oficial"**.
 
-<img src="/images/facebook.png" alt="Facebook" />
+<img src="../../images/facebook.png" alt="Facebook" />
 
 * **Para usar ambos (Instagram e Facebook)**: selecione **"Facebook / Instagram | Oficial"**.
 
-<img src="/images/facebookinstagram.png" alt="Facebook e Instagram" />
+<img src="../../images/facebookinstagram.png" alt="Facebook e Instagram" />
 
 * O sistema também suporta **WebChat**.
 
-<img src="/images/webchat.png" alt="WebChat" />
+<img src="../../images/webchat.png" alt="WebChat" />
 
 ---
 
@@ -43,14 +43,14 @@ Usar cupom desconto: **whazing**
 
 1. Após conectar o canal no Hub, copie o **token gerado**.
 
-<img src="/images/telatoken.png" alt="Token gerado" />
+<img src="../../images/telatoken.png" alt="Token gerado" />
 
 2. Acesse o **Whazing**:
 
    * Navegue até **Configurações** > **Canais** > **Token Hub**.
    * Cole o **token copiado** do Hub e cadastre-o.
 
-<img src="/images/whazing.png" alt="Configurar token no Whazing" />
+<img src="../../images/whazing.png" alt="Configurar token no Whazing" />
 
 3. Agora, basta **adicionar o canal** e escolher o **Hub**.
 

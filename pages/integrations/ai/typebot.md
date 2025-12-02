@@ -4,7 +4,7 @@ sidebarTitle: "Typebot"
 icon: "robot"
 ---
 
-<img src="/images/typebot-configurartypebot.png" alt="print" /> <img src="/images/typebot-configurarwhazingtype.png" alt="print" />
+<img src="../../../images/typebot-configurartypebot.png" alt="print" /> <img src="../../../images/typebot-configurarwhazingtype.png" alt="print" />
 
 1. **URL Integração**: Pegue a URL na publicação do Typebot, não coloque a última `/` conforme exemplo acima.
 2. **Typebot - Slug**: Nome que aparece depois na URL quando você publica. Ver exemplo acima.
@@ -30,7 +30,7 @@ icon: "robot"
 
 ## Exemplo
 
-> <img src="/images/typebot-compartilharfluxo.png" alt="print" />
+> <img src="../../../images/typebot-compartilharfluxo.png" alt="print" />
 
 1.  Usando a variável abaixo, o valor retornado será "0985786468528":
 
@@ -245,4 +245,4 @@ phoneNumber: 5511999999999
 
 ## Como Compartilhar Fluxo com o Cliente
 
-<img src="/images/typebot-compartilharfluxo.png" alt="print" />
+<img src="../../../images/typebot-compartilharfluxo.png" alt="print" />

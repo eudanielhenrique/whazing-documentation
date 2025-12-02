@@ -45,7 +45,7 @@ docker ps
 
 Anote o **CONTAINER ID** correspondente ao PostgreSQL, pois será necessário nos próximos comandos.
 
-<img src="/images/image (2).png" alt="Container ID PostgreSQL" />
+<img src="../../images/image (2).png" alt="Container ID PostgreSQL" />
 
 ***
 

@@ -18,7 +18,7 @@ No campo de pesquisa, digite **@BotFather** e acesse esse bot oficial.
 
 Os bots oficiais do Telegram possuem um ✅ visto azul ao lado do nome
 
-<img src="/images/BotFather.png" alt="BotFather" />
+<img src="../../images/BotFather.png" alt="BotFather" />
 
 ---
 
@@ -53,7 +53,7 @@ Os bots oficiais do Telegram possuem um ✅ visto azul ao lado do nome
 * O BotFather fornecerá um **token de acesso**.
 * Copie esse token e utilize para **cadastrar o canal no Whazing**.
 
-<img src="/images/token.png" alt="Token do bot" />
+<img src="../../images/token.png" alt="Token do bot" />
 
 ---
 
@@ -64,7 +64,7 @@ Os bots oficiais do Telegram possuem um ✅ visto azul ao lado do nome
 3. Cole o token do bot obtido no BotFather
 4. Clique em **Salvar**
 
-<img src="/images/whazing.png" alt="Configurar Telegram no Whazing" />
+<img src="../../images/whazing.png" alt="Configurar Telegram no Whazing" />
 
 ---
 

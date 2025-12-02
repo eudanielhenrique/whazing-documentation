@@ -21,7 +21,7 @@ Para receber mensagens de grupos no Whazing, siga estas etapas:
    * Desative a opção "Ignorar grupos"
    * Ative a opção "Ignorar Privados"
 
-<img src="/images/grupos.png" alt="Configuração de Grupos" />
+<img src="../../images/grupos.png" alt="Configuração de Grupos" />
 
 ---
 

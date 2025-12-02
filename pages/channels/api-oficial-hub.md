@@ -21,7 +21,7 @@ Cadastrar através da URL [https://hub.whazing.com.br/](https://hub.whazing.com.
 
 Usar cupom desconto: **whazing**
 
-<img src="/images/image (12).png" alt="Hub NotificaMe" />
+<img src="../../images/image (12).png" alt="Hub NotificaMe" />
 
 ---
 
@@ -42,21 +42,21 @@ Usar cupom desconto: **whazing**
 
 * **Botões (até 3)**
 
-<img src="/images/botao.png" alt="Botões" />
+<img src="../../images/botao.png" alt="Botões" />
 
 * **Lista**
 
-<img src="/images/lista.png" alt="Lista 1" />
+<img src="../../images/lista.png" alt="Lista 1" />
 
-<img src="/images/lista2.png" alt="Lista 2" />
+<img src="../../images/lista2.png" alt="Lista 2" />
 
 * **Links com informações**
 
-<img src="/images/links.png" alt="Links" />
+<img src="../../images/links.png" alt="Links" />
 
 * **Solicitar localização**
 
-<img src="/images/solicitarlocalizacao.png" alt="Solicitar localização" />
+<img src="../../images/solicitarlocalizacao.png" alt="Solicitar localização" />
 
 ---
 
@@ -79,7 +79,7 @@ Usar cupom desconto: **whazing**
 2. Imagens PNG com fundo transparente podem apresentar **alterações**, pois o WhatsApp converte para JPEG.
 3. Mensagens fora do modelo só são entregues **dentro da janela de 24 horas** desde a última mensagem do cliente.
 
-<img src="/images/limites.png" alt="Limites da API Oficial" />
+<img src="../../images/limites.png" alt="Limites da API Oficial" />
 
 ---
 
@@ -89,7 +89,7 @@ Usar cupom desconto: **whazing**
   * A mensagem é enviada **fora da janela de 24 horas**, ou
   * O conteúdo está em **formato não aceito pela Meta**.
 
-<img src="/images/mensagemrejeitada.png" alt="Mensagem rejeitada" />
+<img src="../../images/mensagemrejeitada.png" alt="Mensagem rejeitada" />
 
 ---
 

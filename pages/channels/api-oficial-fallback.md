@@ -22,7 +22,7 @@ Se a mensagem falhar na API oficial, o sistema tentará reenviá-la usando o **w
 
   Se for bem-sucedido, o ícone será atualizado para um **globo**, indicando que foi enviado via wwebjs ou baileys.
 
-<img src="/images/wwjs.png" alt="Enviado via wwebjs" />
+<img src="../../images/wwjs.png" alt="Enviado via wwebjs" />
 
 * Caso opção _Ignorar Mensagens Enviadas fora do aplicativo_ estiver desativado vai aparecer mensagem novamente.
 
@@ -90,7 +90,7 @@ docker run -d \
 
 1. Vá até **Canais** e clique no ícone de edição.
 
-<img src="/images/canalconfig.png" alt="Edição de canal" />
+<img src="../../images/canalconfig.png" alt="Edição de canal" />
 
 2. Preencha a URL da API do wwebjs.
 
@@ -114,7 +114,7 @@ Após conectar, a página será atualizada e o botão mudará para **Desconectar
 
 ## Como configurar via baileys
 
-<img src="/images/baileys.png" alt="Configuração Baileys" />
+<img src="../../images/baileys.png" alt="Configuração Baileys" />
 
 * Selecione o canal queira mensagem saia, esse canal será usado para enviar mensagem e para chamadas pelo wavoip caso tenha apikey
 
