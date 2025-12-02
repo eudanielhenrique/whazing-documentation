@@ -1,0 +1,79 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install Mintlify
+        run: npm install -g mintlify
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Build Documentation
+        run: |
+          # Criar estrutura para GitHub Pages
+          mkdir -p _site
+          
+          # Copiar arquivos estáticos
+          cp -r images _site/ 2>/dev/null || true
+          cp -r logo _site/ 2>/dev/null || true
+          cp docs.json _site/ 2>/dev/null || true
+          cp SUMMARY.md _site/ 2>/dev/null || true
+          
+          # Criar página inicial redirecionando para Mintlify
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>Whazing SaaS - Documentação</title>
+            <meta http-equiv="refresh" content="0; url=https://mintlify.com">
+            <script>
+              window.location.href = "https://mintlify.com";
+            </script>
+          </head>
+          <body>
+            <h1>Whazing SaaS - Documentação</h1>
+            <p>Esta documentação usa Mintlify. <a href="https://mintlify.com">Clique aqui para acessar</a>.</p>
+            <p>Para visualizar localmente, execute: <code>mintlify dev</code></p>
+          </body>
+          </html>
+          EOF
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './_site'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

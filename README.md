@@ -35,14 +35,14 @@ Esta documentação é construída com [Mintlify](https://mintlify.com) e inclui
 ### Instalação
 
 1. **Instalar Mintlify CLI globalmente:**
-   ```bash
-   npm i -g mintlify
+```bash
+npm i -g mintlify
    ```
 
 2. **Iniciar servidor de desenvolvimento:**
    ```bash
-   mintlify dev
-   ```
+mintlify dev
+```
 
 3. **Acessar a documentação:**
    Abra seu navegador em `http://localhost:3000`
